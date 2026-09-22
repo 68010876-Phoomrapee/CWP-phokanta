@@ -1,4 +1,10 @@
+import sys
+
 age = int(input("Please tell me your age: "))
+
+if age < 0:
+    print("Age cannot be negative.")
+    sys.exit()
 
 print(f"You are currently {age} years old.")
 print(f"In 10 years, you'll be {age + 10} years old.")
