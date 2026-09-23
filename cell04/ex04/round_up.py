@@ -1,4 +1,4 @@
 import math
 
-num = float(input("Give me a number: "))
-print(math.ceil(num))
+number = float(input("Give me a number: "))
+print(math.ceil(number))
